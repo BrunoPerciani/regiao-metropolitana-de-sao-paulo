@@ -1,6 +1,6 @@
 # NDVI and population density analysis: São Paulo Metropolitan Region (RMSP), Brazil (2000–2022)
 
-This repository contains the source code, data processing workflows, and visualization scripts developed for the scientific study on vegetation dynamics in the São Paulo Metropolitan Region (RMSP), Brazil. The analysis investigates the temporal behavior of the Normalized Difference Vegetation Index (NDVI) and its correlation with population density, considering the years 2000, 2010, and 2022.
+This repository contains the source code, data processing workflows, and visualization scripts developed for the scientific study on vegetation dynamics in the São Paulo Metropolitan Region (RMSP), Brazil. The analysis investigates the temporal behavior of the **Normalized Difference Vegetation Index (NDVI)** and its correlation with **population density**, considering the years 2000, 2010, and 2022.
 
 ## 📄 About the study
 Urban vegetation is a critical factor for mitigating the environmental impacts of metropolitan growth, reducing air pollution, heat islands, and soil sealing, while improving urban quality of life. In this context, remote sensing and geoprocessing techniques were applied to evaluate the spatio-temporal evolution of vegetation cover in the RMSP.  
@@ -10,7 +10,7 @@ The methodological design follows the framework proposed by Ponzoni, Shimabukuro
 By combining multi-date Landsat imagery with IBGE demographic data, the research identifies priority areas for urban sustainability policies, where vegetation recovery and the creation of green infrastructure are most needed.  
 
 ## 📊 Data sources
-- NDVI (2000, 2010, 2022): Landsat-7 ETM+ and Landsat-9 OLI-2 via Climate Engine (Google Earth Engine).  
+- NDVI (2000, 2010, 2022): Landsat-7 ETM+ and Landsat-9 OLI-2 via [Climate Engine](https://climateengine.org/) (Google Earth Engine).  
 - Population and census tracts: IBGE, 2022 Demographic Census.  
 - Administrative boundaries: IBGE (municipal and metropolitan shapefiles).  
 - Land use and land cover: MapBiomas Project, Collection 9 (2000, 2010, 2022).  
