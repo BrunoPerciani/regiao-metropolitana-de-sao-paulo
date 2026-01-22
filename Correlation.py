@@ -7,7 +7,7 @@ from scipy.stats import pearsonr, spearmanr
 from pathlib import Path
 
 # Caminho do CSV (ajuste se necessário)
-caminho_csv = r"C:\Users\bruno\OneDrive\PROFISSIONAL\INICIAÇÃO CIÊNTÍFICA\IC [2024-2025]\SIC UFABC 2025\AMOSTRA.csv"
+caminho_csv = r"Amostra.csv" 
 
 # 1) Leitura e limpeza básica
 p = Path(caminho_csv)
@@ -74,7 +74,7 @@ for ax, (classe, grupo) in zip(axes, grupos):
     ax.legend()
 
 axes[0].set_ylabel("NDVI")
-plt.suptitle("NDVI × Densidade populacional por classe (RMSP 2022)", fontsize=14)
+plt.suptitle("NDVI × Densidade populacional por classe", fontsize=14)
 plt.tight_layout()
 plt.show()
 
@@ -85,3 +85,4 @@ tabela = pd.DataFrame(resultados)[
 
 print("\nResumo das correlações por classe:")
 print(tabela.to_string(index=False, float_format=lambda v: f"{v:.6f}" if isinstance(v, float) else str(v)))
+
