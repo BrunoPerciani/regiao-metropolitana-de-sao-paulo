@@ -11,7 +11,7 @@ By combining multi-date Landsat imagery with IBGE demographic data, the research
 
 ## 📊 Data sources
 - NDVI (2000, 2010, 2022): Landsat-7 ETM+ and Landsat-9 OLI-2 via [Climate Engine](https://climateengine.org/) (Google Earth Engine).  
-- Population and census tracts: IBGE, 2022 Demographic Census.  
+- Population and census tracts: IBGE, 2022 and 2010 Demographic Census.  
 - Administrative boundaries: IBGE (municipal and metropolitan shapefiles).  
 - Land use and land cover: MapBiomas Project, Collection 9 (2000, 2010, 2022).  
 
