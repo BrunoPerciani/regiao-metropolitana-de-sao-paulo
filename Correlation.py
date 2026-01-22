@@ -7,7 +7,7 @@ from scipy.stats import pearsonr, spearmanr
 from pathlib import Path
 
 # Caminho do CSV (ajuste se necessário)
-caminho_csv = r"Amostra.csv" 
+caminho_csv = r"Cole o caminho aqui" 
 
 # 1) Leitura e limpeza básica
 p = Path(caminho_csv)
@@ -85,4 +85,5 @@ tabela = pd.DataFrame(resultados)[
 
 print("\nResumo das correlações por classe:")
 print(tabela.to_string(index=False, float_format=lambda v: f"{v:.6f}" if isinstance(v, float) else str(v)))
+
 
